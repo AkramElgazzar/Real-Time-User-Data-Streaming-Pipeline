@@ -74,25 +74,6 @@ The project integrates several essential technologies:
 3. Monitor data flow through Kafka Control Center.  
 4. Query processed data in Cassandra.  
 
-## Project Structure  
-  
-├── dags/                  # Airflow DAG definitions  
-│   └── user_processing.py # DAG for user data processing  
-├── script/                # Setup and initialization scripts  
-│   └── entrypoint.sh      # Container entrypoint script  
-├── docker-compose.yml     # Service definitions and configurations  
-└── requirements.txt       # Python dependencies  
-  
-
-## Technologies Used  
-- Apache Airflow 2.6.0  
-- Apache Kafka  
-- Apache Zookeeper  
-- Apache Spark  
-- PostgreSQL 14.0  
-- Cassandra  
-- Docker & Docker Compose  
-- Python 3.9  
 
 ## Future Enhancements  
 - Add data visualization layer with Grafana or Superset.  
