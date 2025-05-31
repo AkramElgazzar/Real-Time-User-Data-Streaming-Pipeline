@@ -2,7 +2,7 @@
 This pipeline ingests real-time user data from the Random User API, processes it using Spark Streaming, orchestrates workflows with Airflow, and stores the processed data in Cassandra for scalable and fault-tolerant querying.  
 
 ## Architecture  
-![System Architecture](architecture.png) 
+![System Architecture](architecture.PNG) 
 
 ```mermaid
 graph LR
